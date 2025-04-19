@@ -25,32 +25,14 @@ export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l2rn,bla
 
 # RPC chính xác theo ethers.js v5.8.0
 export RPC_ENDPOINTS='{
-  "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
-  "arbt": [
-    "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
-    "https://arbitrum-sepolia.g.alchemy.com/v2/YOUR_API_KEY"
-  ],
-  "bast": [
-    "https://base-sepolia.g.alchemy.com/v2/YOUR_API_KEY",
-    "https://base-sepolia.blockpi.network/v1/rpc/public"
-  ],
-  "blst": [
-    "https://sepolia.blast.io",
-    "https://blast-sepolia.g.alchemy.com/v2/Z1mDP6LGmaLitFKVJgYnbinXdYvkm5Qd",
-    "https://blast-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD",
-    "https://blast-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"
-  ],
-  "mont": ["https://testnet-rpc.monad.xyz"],
-  "opst": [
-    "https://sepolia.optimism.io",
-    "https://optimism-sepolia.drpc.org"
-  ],
-  "unit": [
-    "https://rpc.testnet.unichain.io",
-    "https://unichain-sepolia.blockpi.network/v1/rpc/public"
-  ]
+    "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
+    "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
+    "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
+    "blst": ["https://blast-sepolia.g.alchemy.com/v2/Z1mDP6LGmaLitFKVJgYnbinXdYvkm5Qd", "https://blast-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://blast-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
+    "mont": ["https://testnet-rpc.monad.xyz"],
+    "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
+    "unit": ["https://unichain-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://unichain-sepolia.api.onfinality.io/public","https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"]
 }'
-
 export EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 
 # Chạy executor
