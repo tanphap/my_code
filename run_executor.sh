@@ -1,5 +1,5 @@
 sudo apt update && sudo apt upgrade -y
-wget https://github.com/t3rn/executor-release/releases/download/v0.63.1/executor-linux-v0.63.1.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.64.1/executor-linux-v0.64.1.tar.gz
 tar -xvzf executor-linux-v0.63.1.tar.gz
 cd executor
 
