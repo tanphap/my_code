@@ -19,7 +19,7 @@ export RPC_ENDPOINTS='{
     "arbt": ["https://arb-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://arb-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
     "bast": ["https://base-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://base-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
     "blst": ["https://blast-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://blast-sepolia.g.alchemy.com/v2/Z1mDP6LGmaLitFKVJgYnbinXdYvkm5Qd", "https://blast-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
-    "mont": ["https://testnet-rpc.monad.xyz","https://monad-testnet.g.alchemy.com/v2/Vn0Mwfi1lAU_BnWlOem8aO-I6uhaSwTq]
+    "mont": ["https://testnet-rpc.monad.xyz","https://monad-testnet.g.alchemy.com/v2/Vn0Mwfi1lAU_BnWlOem8aO-I6uhaSwTq],
     "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
     "unit": ["https://unichain-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://unichain-sepolia.api.onfinality.io/public","https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"]
 }'
