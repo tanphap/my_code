@@ -36,5 +36,5 @@ export RPC_ENDPOINTS='{
 export EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 
 # Chạy executor
-cd bin
+cd executor/bin
 ./executor
