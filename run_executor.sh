@@ -16,10 +16,10 @@ export PRIVATE_KEY_LOCAL=$(cat key.txt)
 export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l2rn,blast-sepolia,unichain-sepolia,monad-testnet'
 export RPC_ENDPOINTS='{
     "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
-    "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
-    "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
-    "blst": ["https://blast-sepolia.g.alchemy.com/v2/Z1mDP6LGmaLitFKVJgYnbinXdYvkm5Qd", "https://blast-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://blast-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
-    "mont": ["https://testnet-rpc.monad.xyz"],
+    "arbt": ["https://arb-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://arb-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
+    "bast": ["https://base-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://base-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
+    "blst": ["https://blast-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://blast-sepolia.g.alchemy.com/v2/Z1mDP6LGmaLitFKVJgYnbinXdYvkm5Qd", "https://blast-sepolia.g.alchemy.com/v2/IR99_vEaIeiYgLa-A9kj46CViBq0CBs4"],
+    "mont": ["https://testnet-rpc.monad.xyz","https://monad-testnet.g.alchemy.com/v2/Vn0Mwfi1lAU_BnWlOem8aO-I6uhaSwTq]
     "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
     "unit": ["https://unichain-sepolia.g.alchemy.com/v2/0Jho-LFaKw1XJZYGKqYmdxXERGlHWzTD", "https://unichain-sepolia.api.onfinality.io/public","https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"]
 }'
