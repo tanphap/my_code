@@ -1,19 +1,29 @@
 sudo apt update && sudo apt upgrade -y
+
+# Tải đúng phiên bản executor
 wget https://github.com/t3rn/executor-release/releases/download/v0.64.1/executor-linux-v0.64.1.tar.gz
-tar -xvzf executor-linux-v0.63.1.tar.gz
+
+# Giải nén đúng file
+tar -xvzf executor-linux-v0.64.1.tar.gz
 cd executor
 
+# Thiết lập môi trường
 export ENVIRONMENT=testnet
 export LOG_LEVEL=debug
 export LOG_PRETTY=false
+
 export EXECUTOR_PROCESS_BIDS_ENABLED=true
 export EXECUTOR_PROCESS_ORDERS_ENABLED=true
 export EXECUTOR_PROCESS_CLAIMS_ENABLED=true
 export EXECUTOR_PROCESS_ORDERS=true
 export EXECUTOR_PROCESS_CLAIMS=true
+
 export EXECUTOR_MAX_L3_GAS_PRICE=100
 export PRIVATE_KEY_LOCAL=$(cat key.txt)
+
 export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l2rn,blast-sepolia,unichain-sepolia,monad-testnet'
+
+# RPC chính xác theo ethers.js v5.8.0
 export RPC_ENDPOINTS='{
   "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
   "arbt": [
@@ -43,5 +53,6 @@ export RPC_ENDPOINTS='{
 
 export EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 
-cd executor/bin
+# Chạy executor
+cd bin
 ./executor
