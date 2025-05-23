@@ -26,7 +26,7 @@ export EXECUTOR_ENABLED_ASSETS="eth,t3eth,t3mon,t3sei,mon,sei"
 # RPC chính xác theo ethers.js v5.8.0
 export RPC_ENDPOINTS='{
     "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
-    "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
+    "arbt": ["https://sepolia-rollup.arbitrum.io/rpc"],
     "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
     "seit": ["https://evm-rpc-testnet.sei-apis.com/"],
     "blst": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org"],
