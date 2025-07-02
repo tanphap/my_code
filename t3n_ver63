@@ -1,7 +1,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # Tải đúng phiên bản executor
-wget https://github.com/t3rn/executor-release/releases/download/v0.81.0/executor-linux-v0.97.12.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.97.12/executor-linux-v0.97.12.tar.gz
 
 # Giải nén đúng file
 tar -xvzf executor-linux-v0.97.12.tar.gz
